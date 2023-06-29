@@ -63,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
         onPressed: postData,
-        backgroundColor: Colors.green.shade800,
+        backgroundColor:Colors.green.shade800,
         child: const Icon(Icons.add),
       ),
       backgroundColor: const Color.fromARGB(255, 20, 24, 27),
@@ -84,8 +84,8 @@ class _HomeScreenState extends State<HomeScreen> {
               : GridView.builder(
                   gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
                     maxCrossAxisExtent: MediaQuery.of(context).size.width / 2,
-                    crossAxisSpacing: 16,
-                    childAspectRatio: 0.8,
+                    crossAxisSpacing: 8,
+                    childAspectRatio: 0.9,
                   ),
                   itemCount: _listResponse.length,
                   itemBuilder: (context, index) => Card(
@@ -99,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       children: [
                         Container(
                           decoration: BoxDecoration(
-                            border: Border.all(width: 1, color: Colors.yellow),
+                            border: Border.all(width: 1.5, color: Colors.yellow),
                           ),
                           child: Image.network(
                             _listResponse[index]['avatar'],
