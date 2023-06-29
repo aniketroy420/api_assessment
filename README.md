@@ -6,6 +6,8 @@ A assessment given by Ziggy for a flutter internship.
 - The floating action button triggers response delivery in both the snackbar and console.
 - Screenshots of both snackbar and console are attached below.
 
+## APK
+[APK LINK](https://github.com/aniketroy420/api_assessment/blob/master/apk%20for%20assessment/assessment_aniketroy.apk)
 ## Screenshots
 
  <img src="https://github.com/aniketroy420/api_assessment/blob/master/screenshots/Screenshot_20230629_130908.png?raw=true" width="32%"><img src="https://github.com/aniketroy420/api_assessment/blob/master/screenshots/Screenshot_20230629_130927.png?raw=true" width="32%"><img
